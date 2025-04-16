@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Dream Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="logo.png" alt="KeyVista Logo" />
+              </div>              
+            <nav class="nav-tabs">
+                <a href="#" class="active">Buy</a>
+                <a href="#">Rent</a>
+                <a href="#">About Us</a>
+                <a href="#">Login</a>
+                <a href="#">Sigin/up</a>
+                
+                
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Find a Home you'll LOVE!</h1>
+            <div class="search-container">
+                <div class="search-tabs">
+                    <div class="search-tab active">Buy</div>
+                    <div class="search-tab">Rent</div>
+                    
+                </div>
+                <form class="search-form">
+                    <input type="text" class="search-input" placeholder="Enter City, Locality, Project">
+                    
+                    <div class="dropdown property-type">
+                        <button class="dropdown-btn" type="button">Flat <span>▼</span></button>
+                        <div class="dropdown-content">
+                            <a href="#" data-type="flat">Flat</a>
+                            <a href="#" data-type="house">House/Villa</a>
+                           
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown bhk-dropdown" style="display: none;">
+                        <button class="dropdown-btn" type="button">Select Type <span>▼</span></button>
+                        <div class="dropdown-content" id="bhk-options">
+                            <!-- Options will be dynamically added by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown">
+                        <button class="dropdown-btn" type="button">Budget <span>▼</span></button>
+                        <div class="dropdown-content">
+                            <a href="#">$5 Lac</a>
+                            <a href="#">$10 Lac</a>
+                            <a href="#">$20 Lac</a>
+                            <a href="#">$30 Lac</a>
+                            <a href="#">$40 Lac</a>
+                            <a href="#">$50 Lac</a>
+                            <a href="#">$60 Lac</a>
+                        </div>
+                    </div>
+                    
+                    <button class="search-btn">Search</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>We've got properties for everyone</h2>
+            <div class="feature-cards">
+                <div class="feature-card" style="background-image: url('ChatGPT Image Apr 16, 2025, 11_42_42 AM.png');">
+                    <div class="card-content">
+                        <h3>50977 Owner Properties</h3>
+                        <a href="#" class="explore-link">Explore →</a>
+                    </div>
+                </div>
+                <div class="feature-card" style="background-image: url('Screenshot 2025-04-16 114238.png');">
+                    <div class="card-content">
+                        <h3>42234 Ready to move-in</h3>
+                        <a href="#" class="explore-link">Explore →</a>
+                    </div>
+                </div>
+                <div class="feature-card" style="background-image: url('WhatsApp Image 2025-04-16 at 11.37.14 AM.jpeg');">
+                    <div class="card-content">
+                        <h3>1436 Budget Homes</h3>
+                        <a href="#" class="explore-link">Explore →</a>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    
+    <!-- Property Listings Section -->
+<section class="property-listings">
+    <div class="container">
+        <h2>Browse by Property Type</h2>
+
+        <!-- Flats -->
+        <h3 class="property-type-heading">Flats</h3>
+        <div class="property-cards">
+            <div class="property-card" style="background-image: url('Screenshot 2025-04-16 114238.png');">
+                <div class="card-content">
+                    <h4>Modern 2 BHK Flat</h4>
+                </div>
+            </div>
+            <div class="property-card" style="background-image: url('Screenshot 2025-04-16 114238.png');">
+                <div class="card-content">
+                    <h4>Luxury Flat in City Center</h4>
+                </div>
+            </div>
+            <div class="property-card" style="background-image: url('Screenshot 2025-04-16 114238.png');">
+                <div class="card-content">
+                    <h4>Affordable Family Flat</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- Apartments -->
+        <h3 class="property-type-heading">Apartments</h3>
+        <div class="property-cards">
+            <div class="property-card" style="background-image: url('Screenshot 2025-04-16 114238.png');">
+                <div class="card-content">
+                    <h4>Spacious 3 BHK Apartment</h4>
+                </div>
+            </div>
+            <div class="property-card" style="background-image: url('Screenshot 2025-04-16 114238.png');">
+                <div class="card-content">
+                    <h4>High-Rise Apartment</h4>
+                </div>
+            </div>
+            <div class="property-card" style="background-image: url('Screenshot 2025-04-16 114238.png');">
+                <div class="card-content">
+                    <h4>Garden View Apartment</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bungalows -->
+        <h3 class="property-type-heading">Bungalows</h3>
+        <div class="property-cards">
+            <div class="property-card" style="background-image: url('Screenshot 2025-04-16 114238.png');">
+                <div class="card-content">
+                    <h4>Luxury Bungalow</h4>
+                </div>
+            </div>
+            <div class="property-card" style="background-image: url('Screenshot 2025-04-16 114238.png');">
+                <div class="card-content">
+                    <h4>Modern Hilltop Bungalow</h4>
+                </div>
+            </div>
+            <div class="property-card" style="background-image: url('Screenshot 2025-04-16 114238.png');">
+                <div class="card-content">
+                    <h4>Budget-Friendly Bungalow</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Get Home Interiors from Top Brands</h2>
+                <button class="cta-btn">Check Offers</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
